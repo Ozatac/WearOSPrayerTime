@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Prayer Time</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="city">Şehirler</string>
+    <string name="todo">TODO</string>
+    <string name="aksaray">AKSARAY</string>
+    <string name="_03_ubat_2022_per_embe">03 Şubat 2022 Perşembe</string>
+    <string name="imsak">İmsak :</string>
+    <string name="bes">5:00</string>
+    <string name="gunes">Güneş :</string>
+    <string name="ogle">Öğle :</string>
+    <string name="ikindi">İkindi :</string>
+    <string name="aksam">Akşam :</string>
+    <string name="yatsi">Yatsı :</string>
+</resources>

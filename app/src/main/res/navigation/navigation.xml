@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/cityFragment">
+
+    <fragment
+        android:id="@+id/cityFragment"
+        android:name="com.tunahanozatac.prayertime.view.CityFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_city">
+        <action
+            android:id="@+id/action_cityFragment_to_districtFragment"
+            app:destination="@id/districtFragment" />
+        <action
+            android:id="@+id/action_cityFragment_to_timesFragment"
+            app:destination="@id/timesFragment" />
+        <argument
+            android:name="timesToCity"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/districtFragment"
+        android:name="com.tunahanozatac.prayertime.view.DistrictFragment"
+        android:label="fragment_district"
+        tools:layout="@layout/fragment_district">
+        <action
+            android:id="@+id/action_districtFragment_to_cityFragment"
+            app:destination="@id/cityFragment" />
+        <argument
+            android:name="cityId"
+            android:defaultValue="500"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_districtFragment_to_timesFragment"
+            app:destination="@id/timesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timesFragment"
+        android:name="com.tunahanozatac.prayertime.view.TimesFragment"
+        android:label="fragment_times"
+        tools:layout="@layout/fragment_times">
+        <argument
+            android:name="districtId"
+            android:defaultValue="500"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_timesFragment_to_districtFragment"
+            app:destination="@id/districtFragment" />
+        <action
+            android:id="@+id/action_timesFragment_to_cityFragment"
+            app:destination="@id/cityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.tunahanozatac.prayertime.view.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_cityFragment"
+            app:destination="@id/cityFragment" />
+    </fragment>
+</navigation>
