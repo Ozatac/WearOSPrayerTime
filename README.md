@@ -1,6 +1,5 @@
 # WearOSPrayerTime
-Prayer time 
-
+Prayer Time is an open source prayer time application created to remind prayer times 🌙
 
 # Built With 🛠
 * [Kotlin](https://kotlinlang.org/) - official programming language for Android development .
