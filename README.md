@@ -3,7 +3,6 @@ Prayer time
 
 # Built With 🛠
 * [Kotlin](https://kotlinlang.org/) - official programming language for Android development .
-* [RxJava](https://github.com/ReactiveX/RxJava) - for asynchronous programming .
 * [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
   - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying database changes.
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
