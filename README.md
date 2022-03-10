@@ -1,7 +1,7 @@
 # WearOSPrayerTime
 Prayer time 
 
-#Screenshot
+# Screenshot
 
 ![Watch](https://user-images.githubusercontent.com/36333407/157618103-2b502144-da82-4871-ad55-c9f7e689895b.jpg)
 ![Watch (1)](https://user-images.githubusercontent.com/36333407/157618116-5548af37-4309-44a5-a7c6-e7aab4b9624a.jpg)
